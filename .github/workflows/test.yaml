@@ -23,8 +23,10 @@ jobs:
         run:
             pwd
             python -m pip install --upgrade pip
+            python -m venv venv
+            source venv/bin/activate
             pip install -r requirements.txt
-            python -m pip install pylint
+            pip install pylint
 
       - name: Vérifier pylint
         run: |
