@@ -26,6 +26,13 @@ jobs:
             pip install -r requirements.txt
             python -m pip install pylint
 
+      - name: Vérifier pylint
+        run: |
+          python -m pip show pylint || echo "⚠️ pylint pas installé"
+          python -m pip list
+          which python
+          which pip
+
 
       - name: Les paths
         run : echo $PATH
