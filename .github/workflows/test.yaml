@@ -30,7 +30,8 @@ jobs:
             pip list | grep pylint
 
       - name: Pylint
-        run:
+        run: |
+          source venv/bin/activate
           pylint --fail-under=6 main.py
 
       - name: Running application
