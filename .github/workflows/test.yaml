@@ -26,7 +26,7 @@ jobs:
             pip install -r requirements.txt
 
       - name: Les paths
-        run : echo $PATH
+        run : ls
 
       - name: Pylint
         run:
