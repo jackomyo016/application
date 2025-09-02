@@ -37,4 +37,6 @@ jobs:
       - name: Running application
         env:
           JETON_API: ${{ secrets.JETON_API }}
-        run: python main.py
+        run: |
+          source venv/activate/bin
+          python main.py
