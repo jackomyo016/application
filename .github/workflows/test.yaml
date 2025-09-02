@@ -28,21 +28,14 @@ jobs:
             pip install -r requirements.txt
             pip install pylint
 
-      - name: Vérifier pylint
-        run: |
-          source venv/bin/activate
-          python -m pip show pylint || echo "⚠️ pylint pas installé"
-          python -m pip list
-          which python
-          which pip
-
-
-      - name: Les paths
-        run : echo $PATH
+            python -m pip show pylint || echo "⚠️ pylint pas installé"
+            python -m pip list
+            which python
+            which pip
 
       - name: Pylint
         run:
-          venv/bin/pylint --fail-under=6 main.py
+          pylint --fail-under=6 main.py
 
       - name: Running application
         env:
