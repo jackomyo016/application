@@ -18,7 +18,7 @@ from src.models.train_evaluate import evaluate_model
 # ENVIRONMENT CONFIGURATION ---------------------------
 
 logger.add("recording.log", rotation="500 MB")
-load_dotenv()
+#load_dotenv()
 
 parser = argparse.ArgumentParser(description="Paramètres du random forest")
 parser.add_argument(
