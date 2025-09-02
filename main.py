@@ -3,7 +3,6 @@ Prediction de la survie d'un individu sur le Titanic
 """
 
 import os
-from dotenv import load_dotenv
 import argparse
 from loguru import logger
 
