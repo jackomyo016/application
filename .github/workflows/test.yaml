@@ -24,9 +24,11 @@ jobs:
             pwd
             python -m pip install --upgrade pip
             pip install -r requirements.txt
+            python -m pip install pylint
+
 
       - name: Les paths
-        run : ls
+        run : echo $PATH
 
       - name: Pylint
         run:
