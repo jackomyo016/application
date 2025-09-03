@@ -38,6 +38,12 @@ jobs:
         env:
           JETON_API: ${{ secrets.JETON_API }}
         run: |
-          echo ${#JETON_API}
-          source venv/bin/activate
-          python main.py
+          # echo ${#JETON_API}
+          # source venv/bin/activate
+          # python main.py
+          import os
+          for q in (os.getenv("FIREBASE_PROJECT_ID")):
+            print(q)
+          for q in (os.getenv("TEST")):
+            print(q)
+        shell: python
