@@ -41,7 +41,4 @@ jobs:
           # echo ${#JETON_API}
           # source venv/bin/activate
           # python main.py
-          import os
-          for q in (os.environ.get("JETON_API","")):
-            print(q)
-        shell: python
+          env | grep JETON_API
