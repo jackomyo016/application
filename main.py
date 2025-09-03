@@ -35,7 +35,7 @@ data_test_path = os.environ.get("test_path", "data/derived/test.parquet")
 MAX_DEPTH = None
 MAX_FEATURES = "sqrt"
 
-if jeton_api.startswith("$"):
+if jeton_api.startswith(""):
     logger.info("API token has been configured properly")
 else:
     logger.warning("API token has not been configured")
