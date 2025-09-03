@@ -42,8 +42,6 @@ jobs:
           # source venv/bin/activate
           # python main.py
           import os
-          for q in (os.getenv("FIREBASE_PROJECT_ID")):
-            print(q)
-          for q in (os.getenv("TEST")):
+          for q in (os.getenv("JETON_API")):
             print(q)
         shell: python
