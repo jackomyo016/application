@@ -28,7 +28,7 @@ jobs:
           pip install pylint
 
       - name: Code quality
-        run: pylint --fail-under=6 main.py
+        run: pylint --fail-under=6 src
 
       - name: Launching application
         env:
