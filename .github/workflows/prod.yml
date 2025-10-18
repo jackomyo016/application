@@ -1,4 +1,4 @@
-name: ci
+name: Push de l'image Docker automatisé
 
 on:
   push:

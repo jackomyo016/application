@@ -1,4 +1,4 @@
-[![ci](https://github.com/jackomyo016/application/actions/workflows/prod.yml/badge.svg)](https://github.com/jackomyo016/application/actions/workflows/prod.yml)
+[![Push de l'image Docker automatisé](https://github.com/jackomyo016/application/actions/workflows/prod.yml/badge.svg)](https://github.com/jackomyo016/application/actions/workflows/prod.yml)
 
 # Probabilité de survie sur le Titanic
 
@@ -17,5 +17,3 @@ Pour installer les dépendances
 pip install -r requirements.txt
 ```
 
-
-[![ci](https://github.com/jackomyo016/application/actions/workflows/prod.yml/badge.svg)](https://github.com/jackomyo016/application/actions/workflows/prod.yml)
