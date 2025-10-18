@@ -1,6 +1,8 @@
+[![ci](https://github.com/jackomyo016/application/actions/workflows/prod.yml/badge.svg)](https://github.com/jackomyo016/application/actions/workflows/prod.yml)
+
 # Probabilité de survie sur le Titanic
 
-Pour pouvoir utiliser ce projet, il 
+Pour pouvoir utiliser ce projet, il
 est recommandé de créer un fichier `config.yaml`
 ayant la structure suivante:
 
@@ -14,3 +16,6 @@ Pour installer les dépendances
 ```bash
 pip install -r requirements.txt
 ```
+
+
+[![ci](https://github.com/jackomyo016/application/actions/workflows/prod.yml/badge.svg)](https://github.com/jackomyo016/application/actions/workflows/prod.yml)
