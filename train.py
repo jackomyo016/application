@@ -85,7 +85,7 @@ logger.debug(matrix)
 #logger.info(f"{X.columns}")
 
 for col in X.columns:
-    logger.debug(f"{col} : {list(X[col].unique())} - {"Y" if(np.nan in list(X[col].unique())) or "" in list(X[col].unique()) else "N"}")
+    logger.debug(f"{col} : {list(X[col].unique())} - {'Y' if(np.nan in list(X[col].unique())) or '' in list(X[col].unique()) else 'N'}")
 
 
 joblib.dump(pipe, 'model.joblib')
