@@ -4,3 +4,6 @@ scikit-learn
 python-dotenv
 loguru
 pyarrow
+fastAPI
+uvicorn
+

@@ -33,7 +33,7 @@ jobs:
       - name: Launching application
         env:
           JETON_API: ${{ secrets.JETON_API }}
-        run: python3 main.py
+        run: python3 train.py
 
       - uses: actions/upload-artifact@v4
         with:

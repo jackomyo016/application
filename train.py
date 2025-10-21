@@ -6,11 +6,11 @@ import os
 from dotenv import load_dotenv
 import argparse
 from loguru import logger
-
+import joblib
 import pathlib
 import pandas as pd
 from sklearn.model_selection import train_test_split
-
+import numpy as np
 from src.pipeline.build_pipeline import create_pipeline
 from src.models.train_evaluate import evaluate_model
 
@@ -50,7 +50,7 @@ p.mkdir(parents=True, exist_ok=True)
 TrainingData = pd.read_csv(data_path)
 
 y = TrainingData["Survived"]
-X = TrainingData.drop("Survived", axis="columns")
+X = TrainingData.drop(["Survived", "PassengerId"], axis="columns")
 
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.1
@@ -81,3 +81,12 @@ logger.success(f"{score:.1%} de bonnes réponses sur les données de test pour v
 logger.debug(20 * "-")
 logger.info("Matrice de confusion")
 logger.debug(matrix)
+
+#logger.info(f"{X.columns}")
+
+for col in X.columns:
+    logger.debug(f"{col} : {list(X[col].unique())} - {"Y" if(np.nan in list(X[col].unique())) or "" in list(X[col].unique()) else "N"}")
+
+
+joblib.dump(pipe, 'model.joblib')
+
