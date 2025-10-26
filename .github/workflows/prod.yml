@@ -1,4 +1,4 @@
-name: Push de l'image Docker automatisée !
+name: Push de l'image Docker automatisée !!
 
 on:
   push:
