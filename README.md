@@ -17,3 +17,4 @@ Pour installer les dépendances
 pip install -r requirements.txt
 ```
 
+Le déploiement de l'application est contrôlé par un autre dépôt : [lien Github](https://github.com/jackomyo016/application-deployment)
