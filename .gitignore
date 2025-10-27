@@ -5,3 +5,7 @@ titanic/
 model.joblib
 venv
 data
+/.quarto/
+*.html
+*_files
+_site/
