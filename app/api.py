@@ -14,12 +14,20 @@ app = FastAPI(
     )
 model = joblib.load("model.joblib")
 
-@app.get("/")
-async def root():
-    return "API pour prédire grâce au modèle Titanic"
+@app.get("/", tags=["Welcome"])
+async def show_welcome_page():
+    """
+    Show welcome page with model name and version.
+    """
+
+    return {
+        "Message": "API de prédiction de survie sur le Titanic",
+        "Model_name": 'Titanic ML',
+        "Model_version": "0.2",
+    }
 
 
-@app.get("/prediction")
+@app.get("/prediction", tags=["Prédiction"])
 async def predict(
     Pclass: int,
     Name: str,
