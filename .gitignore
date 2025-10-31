@@ -9,3 +9,4 @@ data
 *.html
 *_files
 _site/
+mlruns/*

@@ -78,3 +78,59 @@
 2025-10-21 23:32:32.792 | DEBUG    | __main__:<module>:88 - Fare : [np.float64(7.25), np.float64(71.2833), np.float64(7.925), np.float64(53.1), np.float64(8.05), np.float64(8.4583), np.float64(51.8625), np.float64(21.075), np.float64(11.1333), np.float64(30.0708), np.float64(16.7), np.float64(26.55), np.float64(31.275), np.float64(7.8542), np.float64(16.0), np.float64(29.125), np.float64(13.0), np.float64(18.0), np.float64(7.225), np.float64(26.0), np.float64(8.0292), np.float64(35.5), np.float64(31.3875), np.float64(263.0), np.float64(7.8792), np.float64(7.8958), np.float64(27.7208), np.float64(146.5208), np.float64(7.75), np.float64(10.5), np.float64(82.1708), np.float64(52.0), np.float64(7.2292), np.float64(11.2417), np.float64(9.475), np.float64(21.0), np.float64(41.5792), np.float64(15.5), np.float64(21.6792), np.float64(17.8), np.float64(39.6875), np.float64(7.8), np.float64(76.7292), np.float64(61.9792), np.float64(27.75), np.float64(46.9), np.float64(80.0), np.float64(83.475), np.float64(27.9), np.float64(15.2458), np.float64(8.1583), np.float64(8.6625), np.float64(73.5), np.float64(14.4542), np.float64(56.4958), np.float64(7.65), np.float64(29.0), np.float64(12.475), np.float64(9.0), np.float64(9.5), np.float64(7.7875), np.float64(47.1), np.float64(15.85), np.float64(34.375), np.float64(61.175), np.float64(20.575), np.float64(34.6542), np.float64(63.3583), np.float64(23.0), np.float64(77.2875), np.float64(8.6542), np.float64(7.775), np.float64(24.15), np.float64(9.825), np.float64(14.4583), np.float64(247.5208), np.float64(7.1417), np.float64(22.3583), np.float64(6.975), np.float64(7.05), np.float64(14.5), np.float64(15.0458), np.float64(26.2833), np.float64(9.2167), np.float64(79.2), np.float64(6.75), np.float64(11.5), np.float64(36.75), np.float64(7.7958), np.float64(12.525), np.float64(66.6), np.float64(7.3125), np.float64(61.3792), np.float64(7.7333), np.float64(69.55), np.float64(16.1), np.float64(15.75), np.float64(20.525), np.float64(55.0), np.float64(25.925), np.float64(33.5), np.float64(30.6958), np.float64(25.4667), np.float64(28.7125), np.float64(0.0), np.float64(15.05), np.float64(39.0), np.float64(22.025), np.float64(50.0), np.float64(8.4042), np.float64(6.4958), np.float64(10.4625), np.float64(18.7875), np.float64(31.0), np.float64(113.275), np.float64(27.0), np.float64(76.2917), np.float64(90.0), np.float64(9.35), np.float64(13.5), np.float64(7.55), np.float64(26.25), np.float64(12.275), np.float64(7.125), np.float64(52.5542), np.float64(20.2125), np.float64(86.5), np.float64(512.3292), np.float64(79.65), np.float64(153.4625), np.float64(135.6333), np.float64(19.5), np.float64(29.7), np.float64(77.9583), np.float64(20.25), np.float64(78.85), np.float64(91.0792), np.float64(12.875), np.float64(8.85), np.float64(151.55), np.float64(30.5), np.float64(23.25), np.float64(12.35), np.float64(110.8833), np.float64(108.9), np.float64(24.0), np.float64(56.9292), np.float64(83.1583), np.float64(262.375), np.float64(14.0), np.float64(164.8667), np.float64(134.5), np.float64(6.2375), np.float64(57.9792), np.float64(28.5), np.float64(133.65), np.float64(15.9), np.float64(9.225), np.float64(35.0), np.float64(75.25), np.float64(69.3), np.float64(55.4417), np.float64(211.5), np.float64(4.0125), np.float64(227.525), np.float64(15.7417), np.float64(7.7292), np.float64(12.0), np.float64(120.0), np.float64(12.65), np.float64(18.75), np.float64(6.8583), np.float64(32.5), np.float64(7.875), np.float64(14.4), np.float64(55.9), np.float64(8.1125), np.float64(81.8583), np.float64(19.2583), np.float64(19.9667), np.float64(89.1042), np.float64(38.5), np.float64(7.725), np.float64(13.7917), np.float64(9.8375), np.float64(7.0458), np.float64(7.5208), np.float64(12.2875), np.float64(9.5875), np.float64(49.5042), np.float64(78.2667), np.float64(15.1), np.float64(7.6292), np.float64(22.525), np.float64(26.2875), np.float64(59.4), np.float64(7.4958), np.float64(34.0208), np.float64(93.5), np.float64(221.7792), np.float64(106.425), np.float64(49.5), np.float64(71.0), np.float64(13.8625), np.float64(7.8292), np.float64(39.6), np.float64(17.4), np.float64(51.4792), np.float64(26.3875), np.float64(30.0), np.float64(40.125), np.float64(8.7125), np.float64(15.0), np.float64(33.0), np.float64(42.4), np.float64(15.55), np.float64(65.0), np.float64(32.3208), np.float64(7.0542), np.float64(8.4333), np.float64(25.5875), np.float64(9.8417), np.float64(8.1375), np.float64(10.1708), np.float64(211.3375), np.float64(57.0), np.float64(13.4167), np.float64(7.7417), np.float64(9.4833), np.float64(7.7375), np.float64(8.3625), np.float64(23.45), np.float64(25.9292), np.float64(8.6833), np.float64(8.5167), np.float64(7.8875), np.float64(37.0042), np.float64(6.45), np.float64(6.95), np.float64(8.3), np.float64(6.4375), np.float64(39.4), np.float64(14.1083), np.float64(13.8583), np.float64(50.4958), np.float64(5.0), np.float64(9.8458), np.float64(10.5167)] - N
 2025-10-21 23:32:32.793 | DEBUG    | __main__:<module>:88 - Cabin : [nan, 'C85', 'C123', 'E46', 'G6', 'C103', 'D56', 'A6', 'C23 C25 C27', 'B78', 'D33', 'B30', 'C52', 'B28', 'C83', 'F33', 'F G73', 'E31', 'A5', 'D10 D12', 'D26', 'C110', 'B58 B60', 'E101', 'F E69', 'D47', 'B86', 'F2', 'C2', 'E33', 'B19', 'A7', 'C49', 'F4', 'A32', 'B4', 'B80', 'A31', 'D36', 'D15', 'C93', 'C78', 'D35', 'C87', 'B77', 'E67', 'B94', 'C125', 'C99', 'C118', 'D7', 'A19', 'B49', 'D', 'C22 C26', 'C106', 'C65', 'E36', 'C54', 'B57 B59 B63 B66', 'C7', 'E34', 'C32', 'B18', 'C124', 'C91', 'E40', 'T', 'C128', 'D37', 'B35', 'E50', 'C82', 'B96 B98', 'E10', 'E44', 'A34', 'C104', 'C111', 'C92', 'E38', 'D21', 'E12', 'E63', 'A14', 'B37', 'C30', 'D20', 'B79', 'E25', 'D46', 'B73', 'C95', 'B38', 'B39', 'B22', 'C86', 'C70', 'A16', 'C101', 'C68', 'A10', 'E68', 'B41', 'A20', 'D19', 'D50', 'D9', 'A23', 'B50', 'A26', 'D48', 'E58', 'C126', 'B71', 'B51 B53 B55', 'D49', 'B5', 'B20', 'F G63', 'C62 C64', 'E24', 'C90', 'C45', 'E8', 'B101', 'D45', 'C46', 'D30', 'E121', 'D11', 'E77', 'F38', 'B3', 'D6', 'B82 B84', 'D17', 'A36', 'B102', 'B69', 'E49', 'C47', 'D28', 'E17', 'A24', 'C50', 'B42', 'C148'] - Y
 2025-10-21 23:32:32.793 | DEBUG    | __main__:<module>:88 - Embarked : ['S', 'C', 'Q', nan] - Y
+2025-10-30 15:28:26.687 | WARNING  | __main__:<module>:47 - API token has not been configured
+2025-10-30 15:28:29.392 | SUCCESS  | __main__:<module>:105 - 74.4% de bonnes réponses sur les données de test pour validation
+2025-10-30 15:28:29.392 | DEBUG    | __main__:<module>:106 - --------------------
+2025-10-30 15:28:29.393 | INFO     | __main__:<module>:107 - Matrice de confusion
+2025-10-30 15:28:29.393 | DEBUG    | __main__:<module>:108 - [[48  8]
+ [15 19]]
+2025-10-30 15:28:29.393 | INFO     | __main__:<module>:115 - Saving experiment in https://user-jackobenco016-mlflow.user.lab.sspcloud.fr
+2025-10-30 15:28:48.696 | WARNING  | __main__:<module>:47 - API token has not been configured
+2025-10-30 15:28:51.304 | SUCCESS  | __main__:<module>:105 - 84.4% de bonnes réponses sur les données de test pour validation
+2025-10-30 15:28:51.305 | DEBUG    | __main__:<module>:106 - --------------------
+2025-10-30 15:28:51.305 | INFO     | __main__:<module>:107 - Matrice de confusion
+2025-10-30 15:28:51.305 | DEBUG    | __main__:<module>:108 - [[47  7]
+ [ 7 29]]
+2025-10-30 15:28:51.305 | INFO     | __main__:<module>:115 - Saving experiment in https://user-jackobenco016-mlflow.user.lab.sspcloud.fr
+2025-10-30 15:31:22.552 | WARNING  | __main__:<module>:47 - API token has not been configured
+2025-10-30 15:31:25.204 | SUCCESS  | __main__:<module>:105 - 82.2% de bonnes réponses sur les données de test pour validation
+2025-10-30 15:31:25.204 | DEBUG    | __main__:<module>:106 - --------------------
+2025-10-30 15:31:25.204 | INFO     | __main__:<module>:107 - Matrice de confusion
+2025-10-30 15:31:25.204 | DEBUG    | __main__:<module>:108 - [[42 10]
+ [ 6 32]]
+2025-10-30 15:31:25.204 | INFO     | __main__:<module>:115 - Saving experiment in https://user-jackobenco016-mlflow.user.lab.sspcloud.fr
+2025-10-30 15:32:13.077 | WARNING  | __main__:<module>:47 - API token has not been configured
+2025-10-30 15:32:15.735 | SUCCESS  | __main__:<module>:105 - 73.3% de bonnes réponses sur les données de test pour validation
+2025-10-30 15:32:15.735 | DEBUG    | __main__:<module>:106 - --------------------
+2025-10-30 15:32:15.735 | INFO     | __main__:<module>:107 - Matrice de confusion
+2025-10-30 15:32:15.735 | DEBUG    | __main__:<module>:108 - [[41 10]
+ [14 25]]
+2025-10-30 15:32:15.735 | INFO     | __main__:<module>:115 - Saving experiment in https://user-jackobenco016-mlflow.user.lab.sspcloud.fr
+2025-10-30 21:57:50.353 | WARNING  | __main__:<module>:47 - API token has not been configured
+2025-10-30 21:57:53.000 | SUCCESS  | __main__:<module>:105 - 81.1% de bonnes réponses sur les données de test pour validation
+2025-10-30 21:57:53.000 | DEBUG    | __main__:<module>:106 - --------------------
+2025-10-30 21:57:53.000 | INFO     | __main__:<module>:107 - Matrice de confusion
+2025-10-30 21:57:53.000 | DEBUG    | __main__:<module>:108 - [[46 10]
+ [ 7 27]]
+2025-10-30 21:57:53.000 | INFO     | __main__:<module>:115 - Saving experiment in https://user-jackobenco016-mlflow.user.lab.sspcloud.fr
+2025-10-30 22:00:29.388 | WARNING  | __main__:<module>:47 - API token has not been configured
+2025-10-30 22:00:31.847 | SUCCESS  | __main__:<module>:105 - 77.8% de bonnes réponses sur les données de test pour validation
+2025-10-30 22:00:31.847 | DEBUG    | __main__:<module>:106 - --------------------
+2025-10-30 22:00:31.847 | INFO     | __main__:<module>:107 - Matrice de confusion
+2025-10-30 22:00:31.847 | DEBUG    | __main__:<module>:108 - [[51  8]
+ [12 19]]
+2025-10-30 22:00:31.847 | INFO     | __main__:<module>:115 - Saving experiment in https://user-jackobenco016-mlflow.user.lab.sspcloud.fr
+2025-10-30 22:10:53.359 | WARNING  | __main__:<module>:47 - API token has not been configured
+2025-10-30 22:10:55.959 | SUCCESS  | __main__:<module>:105 - 71.1% de bonnes réponses sur les données de test pour validation
+2025-10-30 22:10:55.959 | DEBUG    | __main__:<module>:106 - --------------------
+2025-10-30 22:10:55.959 | INFO     | __main__:<module>:107 - Matrice de confusion
+2025-10-30 22:10:55.959 | DEBUG    | __main__:<module>:108 - [[46  5]
+ [21 18]]
+2025-10-30 22:10:55.960 | INFO     | __main__:<module>:115 - Saving experiment in https://user-jackobenco016-mlflow.user.lab.sspcloud.fr
+2025-10-30 22:22:15.135 | WARNING  | __main__:<module>:47 - API token has not been configured
+2025-10-30 22:22:17.628 | SUCCESS  | __main__:<module>:105 - 75.6% de bonnes réponses sur les données de test pour validation
+2025-10-30 22:22:17.629 | DEBUG    | __main__:<module>:106 - --------------------
+2025-10-30 22:22:17.629 | INFO     | __main__:<module>:107 - Matrice de confusion
+2025-10-30 22:22:17.629 | DEBUG    | __main__:<module>:108 - [[46 10]
+ [12 22]]
+2025-10-30 22:22:17.629 | INFO     | __main__:<module>:115 - Saving experiment in https://user-jackobenco016-mlflow.user.lab.sspcloud.fr
