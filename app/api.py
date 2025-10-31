@@ -4,7 +4,16 @@ import numpy as np
 import pandas as pd
 import joblib
 from typing import Optional
+import mlflow
 
+
+#Upload model
+
+model_name = "production"
+model_version = 1
+model = mlflow.pyfunc.load_model(model_uri=f"models:/{model_name}/{model_version}")
+
+#API
 
 app = FastAPI(
     title="Démonstration du modèle de prédiction de survie sur le Titanic",
@@ -12,11 +21,18 @@ app = FastAPI(
     "<b>Application de prédiction de survie sur le Titanic</b> 🚢 <br>Une version par API pour faciliter la réutilisation du modèle 🚀" +\
         "<br><br><img src=\"https://media.vogue.fr/photos/5faac06d39c5194ff9752ec9/1:1/w_2404,h_2404,c_limit/076_CHL_126884.jpg\" width=\"200\">"
     )
-model = joblib.load("model.joblib")
 
 @app.get("/")
-async def root():
-    return "API pour prédire grâce au modèle Titanic"
+async def show_welcome_page():
+    """
+    Show welcome page with model name and version.
+    """
+
+    return {
+        "Message": "API de prédiction de survie sur le Titanic",
+        "Model_name": 'Titanic ML',
+        "Model_version": "0.4",
+    }
 
 
 @app.get("/prediction")
