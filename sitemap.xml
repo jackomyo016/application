@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://jackomyo016.github.io/application/notebooks/titanic.html</loc>
-    <lastmod>2025-10-31T11:15:49.787Z</lastmod>
+    <loc>https://jackomyo016.github.io/application/notebooks/test2.html</loc>
+    <lastmod>2025-10-31T14:06:51.359Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jackomyo016.github.io/application/notebooks/test.html</loc>
+    <lastmod>2025-10-31T14:06:51.359Z</lastmod>
   </url>
   <url>
     <loc>https://jackomyo016.github.io/application/index.html</loc>
-    <lastmod>2025-10-31T11:15:49.786Z</lastmod>
+    <lastmod>2025-10-31T14:06:51.359Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jackomyo016.github.io/application/notebooks/titanic.html</loc>
+    <lastmod>2025-10-31T14:06:51.361Z</lastmod>
   </url>
 </urlset>
