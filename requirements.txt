@@ -6,4 +6,4 @@ loguru
 pyarrow
 fastAPI
 uvicorn
-
+mlflow
