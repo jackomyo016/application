@@ -2,7 +2,7 @@ FROM ubuntu:22.04
 
 # Install Python
 RUN apt-get -y update && \
-    apt-get install python3.13
+    apt-get install -y python3-pip
 
 # Install project dependencies
 COPY requirements.txt .
