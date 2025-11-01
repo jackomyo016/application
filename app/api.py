@@ -12,7 +12,6 @@ import mlflow
 model_name = "production"
 model_version = 1
 model = mlflow.pyfunc.load_model(model_uri=f"models:/{model_name}/{model_version}")
-
 #API
 
 app = FastAPI(

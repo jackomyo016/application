@@ -19,8 +19,8 @@ pip install -r requirements.txt
 
 Le déploiement de l'application est contrôlé par un autre dépôt : [lien Github](https://github.com/jackomyo016/application-deployment)
 
-[Lien vers l'API : ](https://api-titanic-test.lab.sspcloud.fr/)
+[Lien vers l'API ](https://api-titanic-test.lab.sspcloud.fr/)
 
-[Lien vers le site web : ](https://jackomyo016.github.io/application/)
+[Lien vers le site web ](https://jackomyo016.github.io/application/)
 
 
